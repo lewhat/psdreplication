@@ -1,11 +1,13 @@
 * {
-	background-color: #000000;
 	color: #d8d8d8;
 }
 /*nav*/
 nav {
 	width: 100%;
 	text-decoration: none;
+	background-color: #000000;
+	margin: 0px auto;
+	padding: 10px;
 }
 nav .menu {
 	display: inline-block;
@@ -51,6 +53,8 @@ nav .socialmedia {
 	background-image: url('../img/background.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	margin: 0px auto;
+	padding: 20px
 }
 .intro h1 {
 	background-color: transparent;
@@ -80,6 +84,8 @@ table span {
 	background-color: #f0f0f2;
 	width: 100%;
 	height: 400px;
+	margin: 0px auto;
+	padding: 20px;
 }
 .service {
 	text-align: center;
@@ -135,5 +141,32 @@ button h4 {
 }
 footer {
 	text-align: center;
+	background-color: #000000;
+	margin: 0 auto;
+	padding: 30px;
 }
 	
+
+@media (max-width: 1500px) {
+	table {
+		width: 30%;
+		font-size: 10px;
+	}
+}
+@media (max-width: 450px) {
+	nav .contact, nav .socialmedia, table {
+		display: none;
+	}
+
+}
+
+@media (max-width: 1200px) {
+	.graphics h4 {
+		display:none;
+	}
+}
+@media (max-width: 650px) {
+	.graphics {
+		display: none;
+	}
+}
